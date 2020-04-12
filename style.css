@@ -1,15 +1,28 @@
 body{
-    background: url("./bg-image.jpg") 50%;
+    background: url("./etienne-boulanger-mDOao83l1iU-unsplash\ \(1\).jpg") 50%;
     background-size: cover;
-    overflow: hidden;
+    
+    
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 30px 10%;
 }
 .container{
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+}
+.logo{
+    width: 7vh;
+    margin-right: 1200px;
+    padding-bottom: 10px 10%;
+    
 }
 .card1 {
     display: grid;
@@ -143,7 +156,7 @@ body{
 /*! menu */
 .toggle{
     position: fixed;
-    top: 20px;
+    top: 40px;
     right: 30px;
     width: 50px;
     height: 50px;
@@ -180,7 +193,7 @@ body{
 .overlay 
 {
     position: fixed;
-    top: 20px;
+    top: 40px;
     right: 30px;
     width: 50px;
     height: 50px;
@@ -256,4 +269,40 @@ body{
 .menu ul li a:hover:before
 {
     transform: scaleX(1);
+}
+.navBar{
+    width: 100vh;
+    height: 5vh;
+    background-color: rgb(11, 108, 33);
+    position: fixed;
+    border-radius: 20px 20px 0px 0px;
+    
+}
+.navBar ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.navBar ul li{
+    /* margin-top: 2.5vh; */
+    text-decoration: none;
+    
+}
+
+.navBar ul li a{
+    text-decoration: none;
+    color: #ecf0f1;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+.aNav:hover{
+    color: #000;
+    transition: 0.4s;
 }
